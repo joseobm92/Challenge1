@@ -13,6 +13,8 @@ N/A
 
 ## Usage
 
+https://joseobm92.github.io/Challenge1/
+
 ![alt text](assets/images/_Users_elbarre_Documents_UCF_local-week-1_challenge-week-1_Challenge1_index.html%20(1).png)
 
 ## Credits
