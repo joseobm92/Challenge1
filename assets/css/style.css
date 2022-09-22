@@ -1,29 +1,30 @@
+/* Universal Element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* This element selector provides a background color to the entire body */
 body {
     background-color: #d9dcd6;
 }
-
+/* This element selector provides some box model structure, font style, background and font color to the Header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This element selector adds inline display and different font size to h1 */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* This ID selector provides font color */
 #seo {
     color: #d9dcd6;
 }
-
+/* This element selector provides box model structure, placement, font family, and font size */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,26 +32,26 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* This element selector provides a list style type */
 ul {
     list-style-type: none;
 }
-
+/* This element selector provides a display attribute and margin to the left */
 ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* This element selector provides a font color and text decoration attribute */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* This element selector provides font size and text align */
 p {
     font-size: 16px;
     text-align: left;
 }
-
+/* This ID selector provides box model structure, background size and position */
 #hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* This class selector affects the placement and right margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* This class selector affects the placement and left margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* This element selector provides attributes to the content element */
 content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* This element selector provides attributes to the aside element */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -85,22 +86,26 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* This Class selector provides attributes to the content element */
 
 .aside-optimization {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* This Element selector provides attributes to the h3 element */
 
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* This Class selector provides display, margin, and max width attributes */
 
 .aside-optimization img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* This Class selector provides box model attributes, font family, font color and background color */
 
 .content-optimization {
     margin-bottom: 20px;
@@ -110,15 +115,18 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* This Class selector provides a max height attribute */
 
 .content-optimization img {
     max-height: 200px;
 }
+/* This Element selector provides attributes to the h2 element */
 
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* This Element selector provides attributes to the footer element */
 
 footer {
     padding: 30px;
@@ -126,11 +134,14 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* This Element selector provides attributes to the footer h2 element */
 
 footer h2 {
     font-size: 20px;
     text-align: center;
 }
+/* This Element selector provides text alignment to the footer p element */
+
 footer p {
     text-align: center;
 }
